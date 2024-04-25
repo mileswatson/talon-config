@@ -39,6 +39,13 @@ symbol hunt all [<user.text>]:
     sleep(50ms)
     insert(text or "")
 
+try again:
+    user.vscode("workbench.action.terminal.focus")
+    key(cmd-backspace)
+    key(up)
+    key(enter)
+    user.vscode("workbench.action.focusActiveEditorGroup")
+
 # Panels
 panel control: user.vscode("workbench.panel.repl.view.focus")
 panel output: user.vscode("workbench.panel.output.focus")
@@ -287,3 +294,8 @@ cell run: user.vscode("notebook.cell.execute")
 
 install local: user.vscode("workbench.extensions.action.installVSIX")
 preview markdown: user.vscode("markdown.showPreview")
+
+apply action:
+    key(cmd-.)
+    sleep(100ms)
+    key(enter)
