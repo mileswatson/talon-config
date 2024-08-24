@@ -149,7 +149,7 @@ click,clique
 climb,clime
 close,clothes,cloze
 coal,cole
-course,coarse
+course,cores,coarse
 coat,cote
 coax,cokes
 collared,collard
@@ -177,6 +177,8 @@ crepe,crape
 cruel,crewel
 cruise,crews
 queue,cue
+queues,cues
+queueing,cuing
 current,currant
 cursor,curser
 signet,cygnet
@@ -378,6 +380,7 @@ metal,medal,mettle
 medal,meddle,mettle
 Mary,marry,merry
 metal,meddle,mettle
+men,man,min
 mule,mewl
 mean,mien
 mill,mil
@@ -535,6 +538,7 @@ slow,sloe
 slew,slough,slue
 sword,soared
 sold,soled
+some,sum
 son,sun
 sore,soar
 sorry,sari
@@ -659,3 +663,4 @@ you,yew,ewe
 yoke,yolk
 your,you're,yore
 you'll,Yule
+pseudo,sudo
